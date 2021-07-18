@@ -1,0 +1,70 @@
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* >>> Custom  <<<
+  ==================================================*/
+var timeout = 0000;
+var smartbanner = 1;
+var topic = 'youtube';
+var ads = 'premium';
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* >>> Marquee JQuery <<<
+  ==================================================*/
+$('.marquee').marquee({
+  duration: 8000,
+  gap: 2,
+  delayBeforeStart: 0,
+  direction: 'left',
+  pauseOnHover: 'true',
+  duplicated: 'false',
+});
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* >>> Radio Playlist <<<
+  ==================================================*/
+var audio;
+var playlist;
+var tracks;
+var current;
+init();
+
+function init() {
+  current = 0;
+  audio = $('audio');
+  audio[0].volume = 1;
+  playlist = $('#playlist');
+  tracks = playlist.find('li a');
+  len = tracks.length - 1;
+  playlist.find('a').click(function(e) {
+    e.preventDefault();
+    link = $(this);
+    current = link.parent().index();
+    run(link, audio[0]);
+  });
+
+  audio[0].addEventListener('ended', function(e) {
+    current++;
+    if (current > len) {
+      current = 0;
+      link = playlist.find('a')[0];
+    } else {
+      link = playlist.find('a')[current];
+    }
+    run($(link), audio[0]);
+  });
+};
+
+function run(link, player) {
+  player.src = link.attr('href');
+  par = link.parent();
+  par.addClass('active').siblings().removeClass('active');
+  audio[0].load();
+  audio[0].play();
+}
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* >>> Histats <<<
+  ==================================================*/
+var _Hasync = _Hasync || [];
+_Hasync.push(['Histats.start', '1,4442247,4,107,170,20,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
