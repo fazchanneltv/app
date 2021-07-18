@@ -2463,3 +2463,25 @@ source="aHR0cHM6Ly9hM20tYTNzLWxpdmUtZGFzaC5zZWN1cmUuZm9vdHByaW50Lm5ldC9saXZlL25h
       };
     };
   };
+
+
+/*
+  https://canaltelesantiago.com/en-vivo
+  http://envivo.win/
+  http://www.m3u.cl/canales.php
+  https://adictosalatele.com/TV/latinos/cinemax/
+  https://photocall.tv/
+  https://vercanalestv.live/cinemax-en-vivo-por-internet/
+  https://3abnlatino.tv/tv/
+  https://www.musicacristiana.com.ar/bethel-tv.html
+  https://mmmcostarica.com/#why-us-section
+   http://totv.org/tv-mtv-hits
+  https://televisionlibre.net/es/
+  https://toplatino.net/
+  https://latinosnctv.com/
+   http://lacalleochotv.org/cartoon-network-latino-online-gratis/
+  https://latinoweb-tv.com/tv-en-vivo/fox-sports-premium
+  https://www.latinmusictv.net/
+  https://www.ver-television.online/canal-cinecanal-en-vivo
+  https://serieslan.com/alf/bienvenidos
+*/
