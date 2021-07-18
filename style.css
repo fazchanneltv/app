@@ -136,6 +136,7 @@ body{
   left:5px;
   width:116px;
   height:24px;
+  display:inline-block;
 }
 
 .networks .facebook{
