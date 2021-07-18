@@ -39,7 +39,7 @@ function run(link, player) {
   par.addClass('active').siblings().removeClass('active');
   audio[0].load();
   audio[0].play();
-}
+};
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 /* >>> Histats <<<
