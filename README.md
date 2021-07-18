@@ -16,7 +16,7 @@
     <td><b>Version</b></td><td>1.2.0</td>
     </tr>
     <tr>
-    <td><b>Name</b></td><td>FAZchannelTV Player ®</td>
+    <td><b>Name</b></td><td>FAZchannelTV Radio ®</td>
     </tr>
     <tr>
     <td><b>Description</b></td><td>Live video, radio and television player</td>      
