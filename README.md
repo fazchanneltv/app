@@ -25,10 +25,10 @@
     <td><b>License</b></td><td><a href="https://opensource.org/licenses/AGPL-3.0" target="_blank">AGPL</a> © FAZchannelTV Software Industry S.A.S</td>
     </tr>
     <tr>
-    <td><b>Repository</b></td><td><a href="https://github.com/fazchanneltv/radio" target="_blank">github.com/fazchanneltv/radio</a></td>
+    <td><b>Repository</b></td><td><a href="https://github.com/fazchanneltv/radio" target="_blank" title="FAZchannelTV Radio ® Repositorio">github.com/fazchanneltv/radio</a></td>
     </tr>
     <tr>
-    <td><b>Website</b></td><td><a href="https://fazchanneltv.github.io/radio" target="_blank">fazchanneltv.github.io/radio</a></td>
+    <td><b>Website</b></td><td><a href="https://fazchanneltv.github.io/radio" target="_blank" title="FAZchannelTV Radio ®">fazchanneltv.github.io/radio</a></td>
     </tr>
     <tr>
     <td><b>Author</b></td><td>Fabian Zuñiga Educafinanciera</td>
