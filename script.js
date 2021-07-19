@@ -5,8 +5,6 @@ var audio;
 var playlist;
 var tracks;
 var current;
-var link;
-init();
 
 function init() {
   current = 0;
@@ -17,7 +15,7 @@ function init() {
   len = tracks.length - 1;
   playlist.find('a').click(function(e) {
     e.preventDefault();
-    link = $(this);
+    var link = $(this);
     current = link.parent().index();
     run(link, audio[0]);
   });
@@ -33,6 +31,7 @@ function init() {
     run($(link), audio[0]);
   });
 };
+init();
 
 function run(link, player) {
   player.src = link.attr('href');
