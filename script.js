@@ -9,14 +9,14 @@ var link;
 
 function init() {
   current = 0;
-  audio = $('audio');
+  audio = j('audio');
   audio[0].volume = 1;
-  playlist = $('#playlist');
+  playlist = j('#playlist');
   tracks = playlist.find('li a');
   len = tracks.length - 1;
   playlist.find('a').click(function(e) {
     e.preventDefault();
-    link = $(this);
+    var link = j(this);
     current = link.parent().index();
     run(link, audio[0]);
   });
@@ -29,7 +29,7 @@ function init() {
     } else {
       link = playlist.find('a')[current];
     }
-    run($(link), audio[0]);
+    run(j(link), audio[0]);
   });
 };
 init();
