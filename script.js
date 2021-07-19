@@ -8,8 +8,8 @@ var current;
 var tracks;
 var link;
 
-function run(link, player) {
-  player.src = link.attr('href');
+function run(link, source) {
+  source.src = link.attr('href');
   par = link.parent();
   par.addClass('active').siblings().removeClass('active');
   audio[0].load();
