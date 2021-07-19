@@ -22,7 +22,11 @@
     <script>
       /* >>> Set Up FAZchannelTV Main Head .JS <<<
         ==================================================*/
-      popup=true;                 /* true = Activate PopUp / false = Deactivate PopUp */
+      var timeout=0000;
+      var smartbanner=1;
+      var topic='youtube';
+      var ads='premium';
+      var popup=true;                 /* true = Activate PopUp / false = Deactivate PopUp */
       setupProtocol('https');     /* http = Force http / https = Force https (domains blogspot.com return = https://example.blogspot.com.co?m=1 => http://example.blogspot.com?m=0) */
       windowOpener(true);         /* true = Cambiar la URL de la pagina que abra esta página en un PopUp / false = No cambiar la URL de la pagina que abra esta página en un PopUp / Evitar que se cambie la URL de esta pagina al abrir un PopUp */
       activateIframe(false);      /* true = Force frame / false = Prevent frame */
