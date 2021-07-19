@@ -30,19 +30,21 @@ function init() {
     } else {
       link = playlist.find('a')[current];
     }
-    run(j(link), audio[0]);
-  });
-};
-init();
-
-function run(link, player) {
+    
+ function run(link, player) {
   player.src = link.attr('href');
   par = link.parent();
   par.addClass('active').siblings().removeClass('active');
   audio[0].load();
   audio[0].play();
 };
-
+   
+    
+    
+    run(j(link), audio[0]);
+  });
+};
+init();
 /* >>> Histats <<<
       =======================*/
 var _Hasync = _Hasync || [];
