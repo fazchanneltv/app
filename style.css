@@ -186,14 +186,3 @@ body{
     display:none;
   }
 }
-
-.marquee{
-  position:absolute;
-  left:0px;
-  border:none;
-  width:100%;
-  font-family:samsungifrg, arial, sans-serif;
-  color:white;
-  font-size:15px;
-  background-color:black;
-}
