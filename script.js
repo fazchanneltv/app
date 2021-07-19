@@ -8,9 +8,9 @@ var current;
 var tracks;
 var link;
 
-function run(url, source) {
-  source.src = url.attr('href');
-  par = url.parent();
+function run(a, source) {
+  source.src = a.attr('href');
+  par = a.parent();
   par.addClass('active').siblings().removeClass('active');
   audio[0].load();
   audio[0].play();
