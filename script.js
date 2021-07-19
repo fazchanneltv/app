@@ -1,10 +1,10 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 /* >>> Radio Playlist <<<
   ==================================================*/
-var j=jQuery.noConflict();
+var j = jQuery.noConflict();
+var audio = j('audio');
+var playlist = j('#playlist');
 var current;
-var audio;
-var playlist;
 var tracks;
 var link;
 
@@ -18,9 +18,7 @@ function run(link, player) {
 
 function init() {
   current = 0;
-  audio = j('audio');
   audio[0].volume = 1;
-  playlist = j('#playlist');
   tracks = playlist.find('li a');
   len = tracks.length - 1;
   playlist.find('a').click(function(e) {
