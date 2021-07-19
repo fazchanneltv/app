@@ -16,7 +16,7 @@ function init() {
   len = tracks.length - 1;
   playlist.find('a').click(function(e) {
     e.preventDefault();
-    var link = j(this);
+    link = j(this);
     current = link.parent().index();
     run(link, audio[0]);
   });
