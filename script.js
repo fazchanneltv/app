@@ -5,6 +5,7 @@ var audio;
 var playlist;
 var tracks;
 var current;
+var link;
 init();
 
 function init() {
