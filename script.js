@@ -1,12 +1,11 @@
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 /* >>> Radio Playlist <<<
   ==================================================*/
+var current;
 var audio;
 var playlist;
 var tracks;
-var current;
 var link;
-
 
 function init() {
   current = 0;
