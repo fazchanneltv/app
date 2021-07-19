@@ -40,3 +40,23 @@ function run(link, player) {
   audio[0].load();
   audio[0].play();
 };
+
+    /* >>> Histats <<<
+      =======================*/
+  var _Hasync = _Hasync || [];
+  _Hasync.push(['Histats.start', '1,4442247,4,107,170,20,00011111']);
+  _Hasync.push(['Histats.fasi', '1']);
+  _Hasync.push(['Histats.track_hits', '']);
+
+  //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    /* >>> Marquee JQuery <<<
+      =======================*/
+  $('.marquee').marquee({
+    duration: 8000,
+    gap: 2,
+    delayBeforeStart: 0,
+    direction: 'left',
+    pauseOnHover: 'true',
+    duplicated: 'false',
+  });
