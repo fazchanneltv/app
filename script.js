@@ -5,7 +5,7 @@ var audio;
 var playlist;
 var tracks;
 var current;
-var mylink;
+var link;
 
 
 function init() {
@@ -17,20 +17,20 @@ function init() {
   len = tracks.length - 1;
   playlist.find('a').click(function(e) {
     e.preventDefault();
-    mylink = $(this);
-    current = mylink.parent().index();
-    run(mylink, audio[0]);
+    link = $(this);
+    current = link.parent().index();
+    run(link, audio[0]);
   });
 
   audio[0].addEventListener('ended', function(e) {
     current++;
     if (current > len) {
       current = 0;
-      mylink = playlist.find('a')[0];
+      link = playlist.find('a')[0];
     } else {
-      mylink = playlist.find('a')[current];
+      link = playlist.find('a')[current];
     }
-    run($(mylink), audio[0]);
+    run($(link), audio[0]);
   });
 };
 init();
