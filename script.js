@@ -10,8 +10,8 @@ var link;
 
 function run(a, source) {
   source.src = a.attr('href');
-  par = a.parent();
-  par.addClass('active').siblings().removeClass('active');
+  p = a.parent();
+  p.addClass('active').siblings().removeClass('active');
   audio[0].load();
   audio[0].play();
 };
