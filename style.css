@@ -76,8 +76,14 @@ body{
 
 #playlist li{
   margin:0px auto;
-  width:90%;
+  width:85%;
   color:white;
+}
+
+#playlist li a img{
+  border:0px;
+  width:20px;
+  height:20px;
 }
 
 #playlist li a{
@@ -113,13 +119,13 @@ body{
 
 #playlist .active a:after{
   content: " \25B6";
-  color:#cccccc;
+  color:##292929;
   font-style:normal;
   padding-right:8px;
 }
 
-#playlist .active a:hover{
-  color:#292929;
+#playlist .active a:after{
+  content: " " url("//3.bp.blogspot.com/-RNQMF9nPC_8/XzTfeQAYMdI/AAAAAAAAD0k/IYZQJ0OhTB0dArZ-_r1CFtUCbUWA1ax_gCLcBGAsYHQ/s1600/live.gif");
 }
 
 .networks, .networks .youtube, .networks .facebook, .networks .display, .networks .textOption, .networks #twitter-widget-0, .boxLogo{
