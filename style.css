@@ -78,6 +78,7 @@ body{
 #playlist li{
   margin:0px auto;
   width:98%;
+  display:block;
 }
 
 #playlist li a img{
@@ -96,7 +97,6 @@ body{
   font-family:samsungifrg, arial, sans-serif;
   color:white;
   width:70%;
-  display:block;
   background:#292929;
   text-decoration:none;
   -webkit-transition-duration:0.4s; /* Safari */
