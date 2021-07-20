@@ -84,6 +84,7 @@ body{
 #playlist ol li{
   border:2px solid white;
   margin:0px auto;
+  width:90%;
   color:white;
 }
 
@@ -101,6 +102,7 @@ body{
   font-size:14px;
   font-family:samsungifrg, arial, sans-serif;
   color:white;
+  width:70%;
   background:#292929;
   display:block;
   text-decoration:none;
