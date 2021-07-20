@@ -23,7 +23,7 @@ body{
 }
 
 #container{
-  margin:10px auto;
+  margin:20px auto;
   padding:0px;
   border:3px double lime;
   width:98%;
@@ -41,7 +41,7 @@ body{
   margin:10px auto;
   box-shadow:0px 5px 10px #292929 inset;
   border:1px solid lime;
-  width:95%;
+  width:98%;
   height:90px;
   line-height:90px;
   background-color:#ff00ff;
@@ -68,21 +68,36 @@ body{
 
 #playlist{
   margin:20px auto;
-  padding:0px;
+  padding:0px; 
   border:2px solid purple;
-  width:95%;
+  width:98%;
+  color:white;
+  list-style-position:inside;
+}
+
+#playlist li{
+  margin:0px auto;
+  width:96%;
+}
+
+#playlist li img{
+  border:0px;
+  width:25px;
+  height:25px;
+  vertical-align:middle;
 }
 
 #playlist li a{
-  margin:10px;
-  padding:10px;
+  margin:5px;
+  padding:5px;
   border:1px solid #00FFFF;
   box-shadow:0px 5px 10px #292929 inset;
   font-size:14px;
   font-family:samsungifrg, arial, sans-serif;
   color:white;
+  width:86%;
   background:#292929;
-  display:block;
+  display:inline-block;
   text-decoration:none;
   -webkit-transition-duration:0.4s; /* Safari */
   transition-duration:0.4s;
@@ -92,6 +107,13 @@ body{
   border:1px solid lime;
   color:#292929;
   background:white!important;
+}
+
+#playlist li a:hover :after{
+  content: " \25B6";
+  color:#292929;
+  font-style:normal;
+  padding-right:8px;
 }
 
 #playlist .active a{
@@ -104,15 +126,8 @@ body{
   transition:background 0.4s!important;
 }
 
-#playlist .active a:before{
-  content: "\25B6";
-  color:#cccccc;
-  font-style:normal;
-  padding-right:8px;
-}
-
-#playlist .active a:hover{
-  color:#292929;
+#playlist .active a:after{
+  content: " " url("//3.bp.blogspot.com/-RNQMF9nPC_8/XzTfeQAYMdI/AAAAAAAAD0k/IYZQJ0OhTB0dArZ-_r1CFtUCbUWA1ax_gCLcBGAsYHQ/s1600/live.gif");
 }
 
 .networks, .networks .youtube, .networks .facebook, .networks .display, .networks .textOption, .networks #twitter-widget-0, .boxLogo{
@@ -136,6 +151,7 @@ body{
   left:5px;
   width:116px;
   height:24px;
+  display:inline;
 }
 
 .networks .facebook{
@@ -184,15 +200,4 @@ body{
   .networks, .boxLogo{ 
     display:none;
   }
-}
-
-.marquee{
-  position:absolute;
-  left:0px;
-  border:none;
-  width:100%;
-  font-family:samsungifrg, arial, sans-serif;
-  color:white;
-  font-size:15px;
-  background-color:black;
 }
