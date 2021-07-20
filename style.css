@@ -96,6 +96,7 @@ body{
   font-family:samsungifrg, arial, sans-serif;
   color:white;
   width:96%;
+  display:block;
   background:#292929;
   text-decoration:none;
   -webkit-transition-duration:0.4s; /* Safari */
