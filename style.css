@@ -81,7 +81,7 @@ body{
 }
 
 #playlist li img{
-  border:0px;
+  border:10px;
   width:25px;
   height:25px;
   vertical-align:middle;
