@@ -75,7 +75,7 @@ body{
   list-style-position: inside;
 }
 
-#playlist ol li{
+#playlist li{
   border:2px solid white;
   margin:0px auto;
   width:90%;
