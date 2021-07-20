@@ -109,6 +109,13 @@ body{
   background:white!important;
 }
 
+#playlist li a:hover :after{
+  content: " \25B6";
+  color:#292929;
+  font-style:normal;
+  padding-right:8px;
+}
+
 #playlist li .active a{
   border:1px solid white;
   color:black;
