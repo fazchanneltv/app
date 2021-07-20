@@ -70,7 +70,7 @@ body{
   margin:20px auto;
   padding:0px; 
   border:2px solid purple;
-  width:94%;
+  width:95%;
   color:white;
   list-style-position: inside;
   vertical-align:middle;
@@ -78,7 +78,7 @@ body{
 
 #playlist li{
   margin:0px auto;
-  width:90%;
+  width:96%;
 }
 
 #playlist li a img{
