@@ -70,7 +70,13 @@ body{
   margin:20px auto;
   padding:0px;
   border:2px solid purple;
-  width:85%;
+  width:95%;
+  color:white;
+}
+
+#playlist li{
+  margin:0px auto;
+  width:90%;
   color:white;
 }
 
