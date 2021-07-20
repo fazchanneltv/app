@@ -110,7 +110,7 @@ body{
   background:#292929;
   display:inline-block;
   text-decoration:none;
-  -webkit-transition-duration:0.4s; /* Safari */
+  -webkit-transition-duration:0.4s;
   transition-duration:0.4s;
 }
 */
