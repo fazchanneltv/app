@@ -101,6 +101,7 @@ body{
   text-decoration:none;
   -webkit-transition-duration:0.4s; /* Safari */
   transition-duration:0.4s;
+  vertical-align:middle;
 }
 
 #playlist li a:hover{
