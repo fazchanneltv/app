@@ -66,7 +66,7 @@ body{
   display:inline-block;
 }
 
-#playlist ol{
+#playlist{
   margin:20px auto;
   padding:0px; 
   border:2px solid purple;
@@ -82,13 +82,13 @@ body{
   color:white;
 }
 
-#playlist ol li a img{
+#playlist li a img{
   border:0px;
   width:20px;
   height:20px;
 }
 
-#playlist ol li a{
+#playlist li a{
   margin:10px;
   padding:10px;
   border:1px solid #00FFFF;
@@ -104,13 +104,13 @@ body{
   transition-duration:0.4s;
 }
 
-#playlist ol li a:hover{
+#playlist li a:hover{
   border:1px solid lime;
   color:#292929;
   background:white!important;
 }
 
-#playlist ol li .active a{
+#playlist li .active a{
   border:1px solid white;
   color:black;
   font-style:italic;
@@ -120,14 +120,14 @@ body{
   transition:background 0.4s!important;
 }
 
-#playlist ol li .active a:after{
+#playlist li .active a:after{
   content: " \25B6";
   color:##292929;
   font-style:normal;
   padding-right:8px;
 }
 
-#playlist ol li .active a:after{
+#playlist li .active a:after{
   content: " " url("//3.bp.blogspot.com/-RNQMF9nPC_8/XzTfeQAYMdI/AAAAAAAAD0k/IYZQJ0OhTB0dArZ-_r1CFtUCbUWA1ax_gCLcBGAsYHQ/s1600/live.gif");
 }
 
