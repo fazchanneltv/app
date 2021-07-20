@@ -75,6 +75,7 @@ body{
 }
 
 #playlist ol{
+  list-style-position: inside;
   margin:20px auto;
   padding:0px; 
   border:2px solid orange;
