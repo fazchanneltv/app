@@ -107,7 +107,7 @@ body{
   background:white!important;
 }
 
-#playlist .active a{
+#playlist ol li .active a{
   border:1px solid white;
   color:black;
   font-style:italic;
