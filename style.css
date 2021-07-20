@@ -74,19 +74,19 @@ body{
   color:white;
 }
 
-#playlist li{
+#playlist ol li{
   margin:0px auto;
   width:85%;
   color:white;
 }
 
-#playlist li a img{
+#playlist ol li a img{
   border:0px;
   width:20px;
   height:20px;
 }
 
-#playlist li a{
+#playlist ol li a{
   margin:10px;
   padding:10px;
   border:1px solid #00FFFF;
@@ -101,7 +101,7 @@ body{
   transition-duration:0.4s;
 }
 
-#playlist li a:hover{
+#playlist ol li a:hover{
   border:1px solid lime;
   color:#292929;
   background:white!important;
