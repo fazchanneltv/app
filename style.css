@@ -66,19 +66,13 @@ body{
   display:inline-block;
 }
 
-#playlist{
+#playlist ol{
   margin:20px auto;
+  padding:0px; 
   border:2px solid purple;
   width:94%;
   color:white;
-}
-
-#playlist ol{
   list-style-position: inside;
-  margin:20px auto;
-  padding:0px; 
-  border:2px solid orange;
-  width:92%;
 }
 
 #playlist ol li{
