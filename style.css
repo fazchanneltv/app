@@ -78,6 +78,7 @@ body{
   margin:0px auto;
   width:98%;
   color:white;
+  display:inline-block;
 }
 
 #playlist ol li{
