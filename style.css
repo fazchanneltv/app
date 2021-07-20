@@ -74,6 +74,12 @@ body{
   color:white;
 }
 
+#playlist ol{
+  margin:0px auto;
+  width:85%;
+  color:white;
+}
+
 #playlist ol li{
   margin:0px auto;
   width:85%;
