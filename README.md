@@ -10,7 +10,7 @@
     <td><b>Development</b></td><td>25, August, 2015</td>
     </tr>
     <tr>
-    <td><b>Update</b></td><td>26, June, 2021</td>
+    <td><b>Update</b></td><td>20, July, 2021</td>
     </tr>
     <tr>
     <td><b>Version</b></td><td>1.2.0</td>
