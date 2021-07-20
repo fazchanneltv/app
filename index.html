@@ -42,6 +42,27 @@
   <head/>
     
   <body>
+    
+<style>
+ .smartLink{
+  box-sizing:border-box;
+  box-shadow:0px 5px 10px #292929 inset;
+  font-family:samsungifrg, arial, sans-serif;
+  color:#292929;
+  -webkit-transition-duration:0.4s; /* Safari */
+  transition-duration:0.4s;
+}
+.smartLink:hover ::before{
+  content:'\25B6';
+  color:#cccccc;
+  margin-right:5px;
+  font-style:normal;
+}
+.smartLink::after{
+  content:' ' url(//3.bp.blogspot.com/-RNQMF9nPC_8/XzTfeQAYMdI/AAAAAAAAD0k/IYZQJ0OhTB0dArZ-_r1CFtUCbUWA1ax_gCLcBGAsYHQ/s1600/live.gif);
+}
+</style>
+
     <div id="container">
       <div id="contents">
         
@@ -53,6 +74,13 @@
         </div>
 
         <ul id="playlist">
+          
+    <li class='smartLink' data-href='embed.html?stream=0001' data-target='liveIframe' title='FAZchannelTV' alt='fazchanneltv'>
+      <img src="//2.bp.blogspot.com/-aVWzuIWMk8w/XtTADi7MFaI/AAAAAAAABcY/ljCKK4Y6Vv0O21KiqiRgJs_dRT4yGSxUwCLcBGAsYHQ/s1600/canal-en-vivo-fazchanneltv.png" width="25" height="25" class="delayLoad" style="" alt="fazchanneltv" title="FAZchannelTV"/>
+      <span>FAZchannelTV</span>
+    </li> 
+          
+          
           <li class="active"><a href="//i50.letio.com/9180.aac">Radio Mix ( Reggaeton ) Stream:0001</a></li>
           <li><a href="//18533.live.streamtheworld.com/LA_KALLE.mp3">La Calle ( Crossover ) Stream:0002</a></li>
           <li><a href="//18553.live.streamtheworld.com/RADIO_ACTIVAAAC.aac">Radio Activa ( Rock Contenporaneo ) Stream:0003</a></li>
