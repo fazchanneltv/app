@@ -78,7 +78,7 @@ body{
 #playlist li{
   margin:0px auto;
   width:98%;
-  display:inline-block;
+  display:inline;
 }
 
 #playlist li a img{
