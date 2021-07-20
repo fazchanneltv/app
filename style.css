@@ -68,7 +68,6 @@ body{
 
 #playlist{
   margin:20px auto;
-  padding:0px;
   border:2px solid purple;
   width:94%;
   color:white;
@@ -80,7 +79,6 @@ body{
   padding:0px; 
   border:2px solid orange;
   width:92%;
-  color:white;
 }
 
 #playlist ol li{
