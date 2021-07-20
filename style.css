@@ -105,7 +105,7 @@ body{
 }
 
 #playlist .active a:after{
-  content: "\25B6";
+  content: " \25B6";
   color:#cccccc;
   font-style:normal;
   padding-right:8px;
