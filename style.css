@@ -76,10 +76,7 @@ body{
 }
 
 #playlist li{
-  border:2px solid white;
-  margin:5px auto;
   width:90%;
-  color:white;
 }
 
 #playlist li a img{
