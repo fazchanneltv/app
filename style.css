@@ -73,9 +73,11 @@ body{
   width:94%;
   color:white;
   list-style-position: inside;
+  vertical-align:middle;
 }
 
 #playlist li{
+  margin:0px auto;
   width:90%;
 }
 
