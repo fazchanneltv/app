@@ -116,7 +116,7 @@ body{
   padding-right:8px;
 }
 
-#playlist li .active a{
+#playlist .active a{
   border:1px solid white;
   color:black;
   font-style:italic;
@@ -126,7 +126,7 @@ body{
   transition:background 0.4s!important;
 }
 
-#playlist li .active a:after{
+#playlist .active a:after{
   content: " " url("//3.bp.blogspot.com/-RNQMF9nPC_8/XzTfeQAYMdI/AAAAAAAAD0k/IYZQJ0OhTB0dArZ-_r1CFtUCbUWA1ax_gCLcBGAsYHQ/s1600/live.gif");
 }
 
