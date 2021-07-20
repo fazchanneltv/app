@@ -104,7 +104,7 @@ body{
   color:white;
   width:70%;
   background:#292929;
-  display:block;
+  display:inline-block;
   text-decoration:none;
   -webkit-transition-duration:0.4s; /* Safari */
   transition-duration:0.4s;
