@@ -76,12 +76,12 @@ body{
 }
 
 #playlist li{
-  margin:0px auto;
+  margin:10px auto;
   width:96%;
 }
 
 #playlist li img{
-  border:10px;
+  border:0px;
   width:25px;
   height:25px;
   vertical-align:middle;
