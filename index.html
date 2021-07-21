@@ -1,7 +1,7 @@
 <html lang="es" xmlns="https://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="/radio/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link href="/img/favicon.ico" rel="icon" type="image/x-icon"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="robots" content="follow"/>
     <meta name="keywords" content="player, live, radio, tv, video"/>
@@ -27,7 +27,7 @@
       var smartbanner=1;
       var topic='youtube';
       var ads='premium';
-      var popup=true;             /* true = Activate PopUp / false = Deactivate PopUp */
+      var popup=false;             /* true = Activate PopUp / false = Deactivate PopUp */
       setupProtocol('https');     /* http = Force http / https = Force https (domains blogspot.com return = https://example.blogspot.com.co?m=1 => http://example.blogspot.com?m=0) */
       windowOpener(true);         /* true = Cambiar la URL de la pagina que abra esta página en un PopUp / false = No cambiar la URL de la pagina que abra esta página en un PopUp / Evitar que se cambie la URL de esta pagina al abrir un PopUp */
       activateIframe(false);      /* true = Force frame / false = Prevent frame */
@@ -53,25 +53,42 @@
         </div>
       
         <ol id="playlist">
+          
           <li class="active">
-            <a href="//i50.letio.com/9180.aac" title="Radio Mix Cali">
-              <img src="/radio/radio-mix-cali.jpg" alt="radio mix cali"/>
+            <a href="//i50.letio.com/9180.aac" title="Radio Mix Cali"><img src="/img/radio-mix.jpg" alt="radio mix cali"/>
               <span>Radio Mix ( Reggaeton )</span>
             </a>
           </li>
-            
           <li>
-            <a href="//tupanel.info:2000/stream/2digitalradioHDsslLIVE042" title="La Z Cali 101.5">
-              <img src="//cdn.webrad.io/images/logos/radios-com-co/la-z-cali.png" alt="La Z Cali 101.5"/>
+            <a href="//18533.live.streamtheworld.com/LA_KALLE.mp3" title="La Kalle"><img src="/img/la-kalle.jpg" alt="la kalle"/>
+              <span>La kalle ( Crossover )</span>
+            </a>
+          </li>
+          <li>
+            <a href="//22203.live.streamtheworld.com/TR_CALIAAC.aac" title="Tropicana Cali"><img src="/img/tropicana-cali-en-vivo.png" alt="tropicana cali"/>
+              <span>Tropicana Cali ( Crossover )</span></a>
+          </li>
+          <li>
+            <a href="//ibizaglobalradio.streaming-pro.com:8024/;.mp3" title="Ibiza Global Radio"><img src="/img/ibiza-global-radio-player.jpg" alt="ibiza global radio"/>
+              <span>Ibiza Global Radio ( Electronica )</span>
+            </a>
+          </li>
+          <li>
+            <a href="//tupanel.info:2000/stream/2digitalradioHDsslLIVE042" title="La Z Cali 101.5"><img src="/img/la-z-cali.png" alt="la z cali 101.5"/>
               <span>La Z Cali 101.5 ( Crossover )</span>
             </a>
           </li>
-
-          <li><a href="//18533.live.streamtheworld.com/LA_KALLE.mp3">La Calle ( Crossover )</a></li>
-          <li><a href="//18553.live.streamtheworld.com/RADIO_ACTIVAAAC.aac">Radio Activa ( Rock Contenporaneo )</a></li>
-          <li><a href="//22203.live.streamtheworld.com/TR_CALIAAC.aac">Tropicana ( Crossover )</a></li>
-          <li><a href="//i50.letio.com/9144.aac">Radio Tiempo ( Romantica )</a></li>
-          <li><a href="//ibizaglobalradio.streaming-pro.com:8024/;.mp3">FAZchannelTV Radio ( Electronica )</a></li>
+          <li>
+            <a href="//18553.live.streamtheworld.com/RADIO_ACTIVAAAC.aac" title="Radio Activa"><img src="/img/radio-activa-en-vivo.jpg" alt="radio activa"/>
+              <span>Radio Activa ( Rock Contenporaneo )</span>
+            </a>
+          </li>
+          <li>
+            <a href="//i50.letio.com/9144.aac" title="Radio Tiempo 105.9"><img src="/img/radio-tiempo.jpg" alt="radio tiempo 105.9"/>
+              <span>Radio Tiempo 105.9 ( Romantica )</span>
+            </a>
+          </li>
+          
           <li><a href="//audio1.energia1025.com:8000/;*.mp3">Energía Stereo ( Salsa )</a></li>
           <li><a href="//18063.live.streamtheworld.com/LOS40_COLUMBIAAAC.aac">Los 40 Principales Bogota ( Crossover )</a></li>
           <li><a href="//18433.live.streamtheworld.com/BESAME_NACIONALAAC.aac">Besame Radio ( Romantica )</a></li>
@@ -101,7 +118,6 @@
           <li><a href="//i50.letio.com/7000.aac">Melodía Stereo ( Musica y Noticias )</a></li>
           <li><a href="//cast.zuperdns.net:8150/;*.mp3">Bella Voces ( Crossover )</a></li>
           <li><a href="//192.99.34.205:8222/stream">FAZchannelTV Radio ( New Age )</a></li>
-          <li><a href="//ibizaglobalradio.streaming-pro.com:8024/;.mp3">Ibiza Global Radio ( Electronica )</a></li>
           <li><a href="//stream.integracionvirtual.com/proxy/desempolvando?mp=/stream">Desempolvando Los Viejitos ( Baladas de los 60' )</a></li>
           <li><a href="//64.37.50.226:8036/;*.mp3">Colombia Salsa Rosa ( Salsa Romantica )</a></li>
           <li><a href="//198.27.88.38:7054/;*.aac">Caña Y Cafe ( Musica y Noticias )</a></li>
