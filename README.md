@@ -28,7 +28,7 @@
     <td><b>Repository</b></td><td><a href="https://github.com/fazchanneltv/app" target="_blank" title="FAZchannelTV Radio ® Repositorio">github.com/fazchanneltv/app</a></td>
     </tr>
     <tr>
-    <td><b>Website</b></td><td><a href="https://fazchanneltv.github.io/app/radio" target="_blank" title="FAZchannelTV Radio ®">fazchanneltv.github.io/app/radio</a></td>
+    <td><b>Website</b></td><td><a href="http://www.fazchanneltv.com/p/radio.html" target="_blank" title="FAZchannelTV Radio ®">fazchanneltv.github.io/app/radio</a></td>
     </tr>
     <tr>
     <td><b>Author</b></td><td>Fabian Zuñiga Educafinanciera</td>
